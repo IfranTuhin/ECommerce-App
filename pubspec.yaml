@@ -1,0 +1,82 @@
+name: ecommerce_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+
+#---------------- PACKAGES ------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.3
+  provider: ^6.1.1
+  fluttertoast: ^8.2.4
+  iconsax: ^0.0.8
+  get: ^4.6.6
+  http: ^1.1.2
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  url_launcher: ^6.2.2
+  get_storage: ^2.1.1
+  flutter_native_splash: ^2.3.8
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+
+  #--------------------  PACKAGES END ----------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+
+  # ----------- LOCAL ASSETS -----------------
+  assets:
+    - assets/images/on_boarding_images/
+    - assets/icons/
+    - assets/logos/
+    - assets/icons/categories/
+    - assets/images/banners/
+    - assets/images/products/
+
+
+  # ----------- LOCAL FONTS ----------------
+
+  fonts:
+   - family: Poppins
+     fonts:
+      - asset: assets/fonts/Poppins-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Poppins-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Poppins-Italic.ttf
+        style: italic
+      - asset: assets/fonts/Poppins-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Poppins-MediumItalic.ttf
+        weight: 500
+        style: italic
+      - asset: assets/fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Poppins-Bold.ttf
+        weight: 800
